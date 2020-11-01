@@ -1,0 +1,17 @@
+.Location {
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    display: inline-block;
+    flex-grow: 2;
+}
+
+.Location-Open {
+    border: 2px solid rgb(0, 194, 0);
+    color: rgb(107, 199, 107);
+}
+
+.Location-Closed {
+    border: 1.6px solid red;
+    color: rgb(255, 211, 211);
+}
