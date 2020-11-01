@@ -7,7 +7,7 @@ const Location = (props) => {
             <div className={"Location " + (props.data.open ? "Location-Open" : "Location-Closed")}>
                 <span>{props.name}</span>
                 <br />
-                <span>{props.data.til_close} 'til close</span>
+                <span className="OpenTil">{props.data.til_close} 'til close</span>
             </div>
         );
     } else {
