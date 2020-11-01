@@ -13,7 +13,6 @@ const App = () => {
         return (
             <div className="App">
                 <h1>What's open at RIT?</h1>
-
                 <p>oh no a fucky wucky happened</p>
             </div>
         );
@@ -22,7 +21,6 @@ const App = () => {
         return (
             <div className="App">
                 <h1>What's open at RIT?</h1>
-
                 <p>loading...</p>
             </div>
         );
